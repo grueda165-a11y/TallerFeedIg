@@ -18,7 +18,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-
+import coil3.compose.AsyncImage
 
 import com.gustavorueda.feedinstagram.model.Story
 
@@ -86,12 +86,3 @@ fun StoryItem(story: Story) {
     }
 }
 
-@Composable
-fun AsyncImage(
-    model: String,
-    contentDescription: String,
-    modifier: Modifier,
-    contentScale: ContentScale
-) {
-    TODO("Not yet implemented")
-}
